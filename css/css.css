@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root{
+    --color1: #2D1040;
+    --color2: #9AD2D9;
+    --color3: #D9644A;
+    --color4: #fff;
+
+}
+body{
+    
+    width: 1920px;
+
+}
+
+h2{
+color: var(--color1);
+font-size: 30px;
+font-family: sans-serif;
+
+
+}
+h1{
+   font-family: sans-serif; 
+   font-size: 60px;
+    text-align: center;
+    color: var(--color3)
+}
+
+.normal{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    margin: 20px  300px 20px 300px; 
+}
+
+.normal div{
+    width: 100px; 
+    height: 60px;
+    border: 2px solid #fff;
+    background-color: var(--color3);
+    text-align: center;
+    padding-top: 40px;
+    margin: 20px 22.22px 20px 22.22px;    
+    color: white;
+    
+}
+
+.reversa {
+     display: flex;
+    flex-direction: row;
+    width: 1300px;
+    margin: 20px  300px 20px 300px;  
+    
+}
+
+
+.reversa div{
+        width: 100px; 
+    height: 60px;
+    border: 2px solid #fff;
+    background-color: var(--color3);
+    text-align: center;
+    padding-top: 40px;
+    margin: 20px 22.22px 20px 22.22px;    
+    color: white;
+    
+    
+    
+} 
+
+
+
+.micaelo{
+    display: flex;
+    flex-direction: column;
+    width: 622.78px;
+    float: left;
+    margin: 20px 5px 10px 323.46px;
+}
+
+.micaelo div{
+    margin: 10px 0px 0px 0px;
+    border: 3px solid #fff;
+    background-color: var(--color2);
+    height: 75px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 25px;
+}
+
+
+
+.moshi{
+    display: flex;
+    flex-direction: column;
+    width:622.78px;
+    float: left;
+    margin: 20px 323.46px 10px  5px;
+} 
+
+
+.moshi div{
+    
+     margin: 10px 0px 0px 0px;
+    border: 3px solid #fff;
+    background-color: var(--color2);
+    height: 75px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 25px;
+    
+    
+}
